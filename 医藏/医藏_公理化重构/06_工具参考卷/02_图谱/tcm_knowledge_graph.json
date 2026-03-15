@@ -1,0 +1,747 @@
+{
+  "nodes": [
+    {
+      "id": "C001",
+      "name": "阴阳",
+      "type": "哲学概念",
+      "definition": "万物皆有阴阳二性，相互对立、相互依存、相互转化",
+      "axiom": "A1",
+      "attributes": [
+        "对立",
+        "互根",
+        "消长",
+        "转化"
+      ]
+    },
+    {
+      "id": "C002",
+      "name": "五行",
+      "type": "哲学概念",
+      "definition": "木火土金水五种物质及其运动变化",
+      "axiom": "A2",
+      "attributes": [
+        "木",
+        "火",
+        "土",
+        "金",
+        "水",
+        "相生",
+        "相克"
+      ]
+    },
+    {
+      "id": "C101",
+      "name": "心",
+      "type": "脏腑",
+      "definition": "主血脉、藏神，开窍于舌",
+      "axiom": "A3",
+      "attributes": [
+        "君主之官",
+        "主血脉",
+        "藏神",
+        "开窍于舌",
+        "在志为喜"
+      ]
+    },
+    {
+      "id": "C102",
+      "name": "肝",
+      "type": "脏腑",
+      "definition": "主疏泄、藏血，开窍于目",
+      "axiom": "A3",
+      "attributes": [
+        "将军之官",
+        "主疏泄",
+        "藏血",
+        "开窍于目",
+        "在志为怒"
+      ]
+    },
+    {
+      "id": "C103",
+      "name": "脾",
+      "type": "脏腑",
+      "definition": "主运化、统血，开窍于口",
+      "axiom": "A3",
+      "attributes": [
+        "仓廪之官",
+        "主运化",
+        "统血",
+        "开窍于口",
+        "在志为思"
+      ]
+    },
+    {
+      "id": "C104",
+      "name": "肺",
+      "type": "脏腑",
+      "definition": "主气、司呼吸，开窍于鼻",
+      "axiom": "A3",
+      "attributes": [
+        "相傅之官",
+        "主气",
+        "司呼吸",
+        "开窍于鼻",
+        "在志为悲"
+      ]
+    },
+    {
+      "id": "C105",
+      "name": "肾",
+      "type": "脏腑",
+      "definition": "藏精、主水、纳气，开窍于耳",
+      "axiom": "A3",
+      "attributes": [
+        "作强之官",
+        "藏精",
+        "主水",
+        "纳气",
+        "开窍于耳",
+        "在志为恐"
+      ]
+    },
+    {
+      "id": "C106",
+      "name": "胆",
+      "type": "脏腑",
+      "definition": "贮存和排泄胆汁，主决断",
+      "axiom": "A3",
+      "attributes": [
+        "中正之官",
+        "藏胆汁",
+        "主决断"
+      ]
+    },
+    {
+      "id": "C107",
+      "name": "胃",
+      "type": "脏腑",
+      "definition": "受纳腐熟水谷",
+      "axiom": "A3",
+      "attributes": [
+        "水谷之海",
+        "受纳",
+        "腐熟"
+      ]
+    },
+    {
+      "id": "C108",
+      "name": "小肠",
+      "type": "脏腑",
+      "definition": "受盛化物，泌别清浊",
+      "axiom": "A3",
+      "attributes": [
+        "受盛之官",
+        "化物",
+        "泌别清浊"
+      ]
+    },
+    {
+      "id": "C109",
+      "name": "大肠",
+      "type": "脏腑",
+      "definition": "传导糟粕",
+      "axiom": "A3",
+      "attributes": [
+        "传导之官",
+        "传化糟粕"
+      ]
+    },
+    {
+      "id": "C110",
+      "name": "膀胱",
+      "type": "脏腑",
+      "definition": "贮存尿液",
+      "axiom": "A3",
+      "attributes": [
+        "州都之官",
+        "藏尿",
+        "气化"
+      ]
+    },
+    {
+      "id": "C111",
+      "name": "三焦",
+      "type": "脏腑",
+      "definition": "主持诸气，通行水道",
+      "axiom": "A3",
+      "attributes": [
+        "决渎之官",
+        "主持诸气",
+        "通行水道"
+      ]
+    },
+    {
+      "id": "C201",
+      "name": "十二正经",
+      "type": "经络",
+      "definition": "手足三阴三经，运行气血的主要通道",
+      "axiom": "A5",
+      "attributes": [
+        "手太阴肺经",
+        "手阳明大肠经",
+        "足阳明胃经",
+        "足太阴脾经",
+        "手少阴心经",
+        "手太阳小肠经",
+        "足太阳膀胱经",
+        "足少阴肾经",
+        "手厥阴心包经",
+        "手少阳三焦经",
+        "足少阳胆经",
+        "足厥阴肝经"
+      ]
+    },
+    {
+      "id": "C202",
+      "name": "奇经八脉",
+      "type": "经络",
+      "definition": "督、任、冲、带、阴阳跷、阴阳维八脉",
+      "axiom": "A5",
+      "attributes": [
+        "督脉",
+        "任脉",
+        "冲脉",
+        "带脉",
+        "阴跷脉",
+        "阳跷脉",
+        "阴维脉",
+        "阳维脉"
+      ]
+    },
+    {
+      "id": "C301",
+      "name": "气",
+      "type": "生命物质",
+      "definition": "人体生命活动的动力",
+      "axiom": "A4",
+      "attributes": [
+        "推动",
+        "温煦",
+        "防御",
+        "固摄",
+        "气化"
+      ]
+    },
+    {
+      "id": "C302",
+      "name": "血",
+      "type": "生命物质",
+      "definition": "循行于脉中的红色液体，濡养全身",
+      "axiom": "A4",
+      "attributes": [
+        "濡养",
+        "藏神",
+        "化源于脾胃",
+        "心主血",
+        "肝藏血",
+        "脾统血"
+      ]
+    },
+    {
+      "id": "C303",
+      "name": "津液",
+      "type": "生命物质",
+      "definition": "机体一切正常水液的总称",
+      "axiom": "A4",
+      "attributes": [
+        "津",
+        "液",
+        "滋润",
+        "濡养"
+      ]
+    },
+    {
+      "id": "C401",
+      "name": "六淫",
+      "type": "病因",
+      "definition": "风、寒、暑、湿、燥、火六种外感病邪",
+      "axiom": "D1",
+      "attributes": [
+        "风邪",
+        "寒邪",
+        "暑邪",
+        "湿邪",
+        "燥邪",
+        "火邪"
+      ]
+    },
+    {
+      "id": "C402",
+      "name": "七情",
+      "type": "病因",
+      "definition": "喜、怒、忧、思、悲、恐、惊七种情志变化",
+      "axiom": "D1",
+      "attributes": [
+        "喜",
+        "怒",
+        "忧",
+        "思",
+        "悲",
+        "恐",
+        "惊"
+      ]
+    },
+    {
+      "id": "C501",
+      "name": "四诊",
+      "type": "诊断方法",
+      "definition": "望、闻、问、切四种诊断方法",
+      "axiom": "R1",
+      "attributes": [
+        "望诊",
+        "闻诊",
+        "问诊",
+        "切诊"
+      ]
+    },
+    {
+      "id": "C502",
+      "name": "八纲",
+      "type": "辨证方法",
+      "definition": "表、里、寒、热、虚、实、阴、阳八类证候",
+      "axiom": "R1",
+      "attributes": [
+        "表证",
+        "里证",
+        "寒证",
+        "热证",
+        "虚证",
+        "实证",
+        "阴证",
+        "阳证"
+      ]
+    },
+    {
+      "id": "C503",
+      "name": "六经辨证",
+      "type": "辨证方法",
+      "definition": "太阳、阳明、少阳、太阴、少阴、厥阴六经病证",
+      "axiom": "R1",
+      "attributes": [
+        "太阳病",
+        "阳明病",
+        "少阳病",
+        "太阴病",
+        "少阴病",
+        "厥阴病"
+      ]
+    },
+    {
+      "id": "C504",
+      "name": "卫气营血辨证",
+      "type": "辨证方法",
+      "definition": "温热病发展的四个阶段",
+      "axiom": "R1",
+      "attributes": [
+        "卫分证",
+        "气分证",
+        "营分证",
+        "血分证"
+      ]
+    },
+    {
+      "id": "C601",
+      "name": "治则",
+      "type": "治疗原则",
+      "definition": "治疗疾病的基本原则",
+      "axiom": "D3",
+      "attributes": [
+        "治病求本",
+        "扶正祛邪",
+        "调整阴阳",
+        "三因制宜"
+      ]
+    },
+    {
+      "id": "C602",
+      "name": "八法",
+      "type": "治疗方法",
+      "definition": "汗、吐、下、和、温、清、消、补八种治法",
+      "axiom": "D3",
+      "attributes": [
+        "汗法",
+        "吐法",
+        "下法",
+        "和法",
+        "温法",
+        "清法",
+        "消法",
+        "补法"
+      ]
+    },
+    {
+      "id": "C701",
+      "name": "四气五味",
+      "type": "药性理论",
+      "definition": "寒热温凉四气，酸苦甘辛咸五味",
+      "axiom": "A3",
+      "attributes": [
+        "寒",
+        "热",
+        "温",
+        "凉",
+        "酸",
+        "苦",
+        "甘",
+        "辛",
+        "咸"
+      ]
+    },
+    {
+      "id": "C702",
+      "name": "升降浮沉",
+      "type": "药性理论",
+      "definition": "药物作用趋向",
+      "axiom": "A3",
+      "attributes": [
+        "升",
+        "降",
+        "浮",
+        "沉"
+      ]
+    },
+    {
+      "id": "C703",
+      "name": "归经",
+      "type": "药性理论",
+      "definition": "药物对某经某脏腑的选择性作用",
+      "axiom": "A3",
+      "attributes": [
+        "十二经归经",
+        "脏腑归经"
+      ]
+    },
+    {
+      "id": "C801",
+      "name": "君臣佐使",
+      "type": "方剂配伍",
+      "definition": "方剂组成的基本原则",
+      "axiom": "D3",
+      "attributes": [
+        "君药",
+        "臣药",
+        "佐药",
+        "使药"
+      ]
+    },
+    {
+      "id": "C802",
+      "name": "七情和合",
+      "type": "方剂配伍",
+      "definition": "药物配伍的七种关系",
+      "axiom": "D3",
+      "attributes": [
+        "单行",
+        "相须",
+        "相使",
+        "相畏",
+        "相杀",
+        "相恶",
+        "相反"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "C001",
+      "to": "C002",
+      "from_name": "阴阳",
+      "to_name": "五行",
+      "type": "包含",
+      "description": "阴阳五行是统一的哲学体系"
+    },
+    {
+      "from": "C001",
+      "to": "C101",
+      "from_name": "阴阳",
+      "to_name": "心",
+      "type": "属性",
+      "description": "心属阳"
+    },
+    {
+      "from": "C001",
+      "to": "C105",
+      "from_name": "阴阳",
+      "to_name": "肾",
+      "type": "属性",
+      "description": "肾属阴"
+    },
+    {
+      "from": "C002",
+      "to": "C101",
+      "from_name": "五行",
+      "to_name": "心",
+      "type": "对应",
+      "description": "心属火"
+    },
+    {
+      "from": "C002",
+      "to": "C102",
+      "from_name": "五行",
+      "to_name": "肝",
+      "type": "对应",
+      "description": "肝属木"
+    },
+    {
+      "from": "C002",
+      "to": "C103",
+      "from_name": "五行",
+      "to_name": "脾",
+      "type": "对应",
+      "description": "脾属土"
+    },
+    {
+      "from": "C002",
+      "to": "C104",
+      "from_name": "五行",
+      "to_name": "肺",
+      "type": "对应",
+      "description": "肺属金"
+    },
+    {
+      "from": "C002",
+      "to": "C105",
+      "from_name": "五行",
+      "to_name": "肾",
+      "type": "对应",
+      "description": "肾属水"
+    },
+    {
+      "from": "C102",
+      "to": "C101",
+      "from_name": "肝",
+      "to_name": "心",
+      "type": "相生",
+      "description": "木生火"
+    },
+    {
+      "from": "C101",
+      "to": "C103",
+      "from_name": "心",
+      "to_name": "脾",
+      "type": "相生",
+      "description": "火生土"
+    },
+    {
+      "from": "C103",
+      "to": "C104",
+      "from_name": "脾",
+      "to_name": "肺",
+      "type": "相生",
+      "description": "土生金"
+    },
+    {
+      "from": "C104",
+      "to": "C105",
+      "from_name": "肺",
+      "to_name": "肾",
+      "type": "相生",
+      "description": "金生水"
+    },
+    {
+      "from": "C105",
+      "to": "C102",
+      "from_name": "肾",
+      "to_name": "肝",
+      "type": "相生",
+      "description": "水生木"
+    },
+    {
+      "from": "C102",
+      "to": "C103",
+      "from_name": "肝",
+      "to_name": "脾",
+      "type": "相克",
+      "description": "木克土"
+    },
+    {
+      "from": "C103",
+      "to": "C105",
+      "from_name": "脾",
+      "to_name": "肾",
+      "type": "相克",
+      "description": "土克水"
+    },
+    {
+      "from": "C105",
+      "to": "C101",
+      "from_name": "肾",
+      "to_name": "心",
+      "type": "相克",
+      "description": "水克火"
+    },
+    {
+      "from": "C101",
+      "to": "C104",
+      "from_name": "心",
+      "to_name": "肺",
+      "type": "相克",
+      "description": "火克金"
+    },
+    {
+      "from": "C104",
+      "to": "C102",
+      "from_name": "肺",
+      "to_name": "肝",
+      "type": "相克",
+      "description": "金克木"
+    },
+    {
+      "from": "C101",
+      "to": "C108",
+      "from_name": "心",
+      "to_name": "小肠",
+      "type": "表里",
+      "description": "心与小肠相表里"
+    },
+    {
+      "from": "C102",
+      "to": "C106",
+      "from_name": "肝",
+      "to_name": "胆",
+      "type": "表里",
+      "description": "肝与胆相表里"
+    },
+    {
+      "from": "C103",
+      "to": "C107",
+      "from_name": "脾",
+      "to_name": "胃",
+      "type": "表里",
+      "description": "脾与胃相表里"
+    },
+    {
+      "from": "C104",
+      "to": "C109",
+      "from_name": "肺",
+      "to_name": "大肠",
+      "type": "表里",
+      "description": "肺与大肠相表里"
+    },
+    {
+      "from": "C105",
+      "to": "C110",
+      "from_name": "肾",
+      "to_name": "膀胱",
+      "type": "表里",
+      "description": "肾与膀胱相表里"
+    },
+    {
+      "from": "C301",
+      "to": "C302",
+      "from_name": "气",
+      "to_name": "血",
+      "type": "生成",
+      "description": "气为血之帅"
+    },
+    {
+      "from": "C302",
+      "to": "C301",
+      "from_name": "血",
+      "to_name": "气",
+      "type": "承载",
+      "description": "血为气之母"
+    },
+    {
+      "from": "C101",
+      "to": "C302",
+      "from_name": "心",
+      "to_name": "血",
+      "type": "主管",
+      "description": "心主血"
+    },
+    {
+      "from": "C102",
+      "to": "C302",
+      "from_name": "肝",
+      "to_name": "血",
+      "type": "贮藏",
+      "description": "肝藏血"
+    },
+    {
+      "from": "C103",
+      "to": "C302",
+      "from_name": "脾",
+      "to_name": "血",
+      "type": "统摄",
+      "description": "脾统血"
+    },
+    {
+      "from": "C202",
+      "to": "C201",
+      "from_name": "奇经八脉",
+      "to_name": "十二正经",
+      "type": "统摄",
+      "description": "奇经八脉统摄十二正经"
+    },
+    {
+      "from": "C501",
+      "to": "C502",
+      "from_name": "四诊",
+      "to_name": "八纲",
+      "type": "输入",
+      "description": "四诊为辨证提供依据"
+    },
+    {
+      "from": "C502",
+      "to": "C503",
+      "from_name": "八纲",
+      "to_name": "六经辨证",
+      "type": "基础",
+      "description": "八纲是六经辨证的基础"
+    },
+    {
+      "from": "C502",
+      "to": "C504",
+      "from_name": "八纲",
+      "to_name": "卫气营血辨证",
+      "type": "基础",
+      "description": "八纲是卫气营血辨证的基础"
+    },
+    {
+      "from": "C502",
+      "to": "C602",
+      "from_name": "八纲",
+      "to_name": "八法",
+      "type": "对应",
+      "description": "辨证论治"
+    },
+    {
+      "from": "C602",
+      "to": "C801",
+      "from_name": "八法",
+      "to_name": "君臣佐使",
+      "type": "指导",
+      "description": "治法指导方剂配伍"
+    },
+    {
+      "from": "C701",
+      "to": "C703",
+      "from_name": "四气五味",
+      "to_name": "归经",
+      "type": "决定",
+      "description": "药性决定归经"
+    },
+    {
+      "from": "C801",
+      "to": "C802",
+      "from_name": "君臣佐使",
+      "to_name": "七情和合",
+      "type": "配合",
+      "description": "配伍原则"
+    }
+  ],
+  "metadata": {
+    "title": "中医知识图谱",
+    "description": "基于公理化重构的中医概念知识图谱",
+    "version": "1.0",
+    "axioms": {
+      "A1": "阴阳公理 - 万物皆有阴阳二性",
+      "A2": "五行公理 - 木火土金水相生相克",
+      "A3": "脏腑公理 - 五脏六腑功能协调",
+      "A4": "气血公理 - 气血调和则健康",
+      "A5": "经络公理 - 经络运行气血"
+    }
+  }
+}
